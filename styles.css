@@ -15,7 +15,7 @@ body{
     font-size: 15px;
 }
 
-.container{
+main{
     max-width: 1020px;
 }
 
@@ -23,7 +23,7 @@ body{
     background-color: hsl(244, 38%, 16%);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     overflow: hidden;
     margin: 2rem;
 }
@@ -52,7 +52,7 @@ body{
 .title{
     color: hsl(0, 0%, 100%);
     font-weight: 700;
-    padding-bottom: 22px;
+    padding-bottom: 2.2rem;
 }
 
 .title span{
@@ -68,14 +68,14 @@ body{
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
-    padding-top: 60px;
+    padding-top: 6rem;
 }
 
 .stat-box p.num{
     color: hsl(0, 0%, 100%);
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 7px;
+    margin-bottom: 0.7rem;
 }
 
 .stat-box p{
@@ -84,19 +84,19 @@ body{
 
 @media only screen and (max-width: 768px) and (min-width: 426px){
     body{
-        font-size: 12px;
+        font-size: 1.2rem;
     }
     .text-component{
-        padding: 12px;
+        padding: 1.2rem;
     }
     .title{
-        font-size: 22px;
+        font-size: 2.2rem;
     }
     .stat-box{
-        padding-top: 30px;
+        padding-top: 3rem;
     }
     .stat-box p.num{
-        font-size: 17px;
+        font-size: 1.7rem;
     }
 }
 
@@ -114,19 +114,19 @@ body{
     }
 
     .text-component{
-        padding: 12% 8%;
+        padding: 1.2rem 0.8rem;
     }
 
     .title{
-        font-size: 23px;
+        font-size: 2.3rem;
         line-height: 1.4;
     }
     .stat-box{
         flex-direction: column;
-        padding-top: 30px;
+        padding-top: 3rem;
     }
 
     .stat-box div{
-        margin-top: 20px;
+        margin-top: 2rem;
     }
 }
