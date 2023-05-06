@@ -11,4 +11,18 @@ body{
     background: hsl(233, 47%, 7%);
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 1020px;
+}
+
+.wrapper{
+    background-color: hsl(244, 38%, 16%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 2rem;
 }
